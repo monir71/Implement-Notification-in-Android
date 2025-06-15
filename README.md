@@ -3,7 +3,11 @@ Simple explanation here:
 
 
 
-Drawable drawable = ResourcesCompat.getDrawable(getResources(), R.drawable.icon, null);
+
+
+
+
+        Drawable drawable = ResourcesCompat.getDrawable(getResources(), R.drawable.icon, null);
         BitmapDrawable bitmapDrawable = (BitmapDrawable) drawable;
         Bitmap largeIcon = null;
         if (bitmapDrawable != null) {
